@@ -1,0 +1,1 @@
+Please Note That: My code might seem advanced than others, It's because I am a Running Junior Wordpress Developer. So i have at least 50% mastered HTML CSS before.
