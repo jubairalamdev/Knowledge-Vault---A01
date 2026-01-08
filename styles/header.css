@@ -1,0 +1,11 @@
+.header-wrapper .navbar {
+    width: 1360px;
+    padding-block: 16px;
+}
+
+.header-wrapper .navbar .nav-links {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 32px;
+}

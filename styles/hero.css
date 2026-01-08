@@ -1,0 +1,26 @@
+.hero-section {
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-wrapper {
+    padding-block: 100px 170px;
+    width: 770px;
+}
+
+.hero-label-wrapper {
+    padding: 8px 12px;
+    border-radius: 50px;
+    background-color: var(--primary-bg-color);
+    gap: 8px;
+}
+
+.hero-label-wrapper img {
+    width: 18px;
+    height: 18px;
+}
+
+.hero-btn-wrapper {
+    margin-top: 32px;
+}
