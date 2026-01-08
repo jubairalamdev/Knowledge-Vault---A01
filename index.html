@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,65 +8,155 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/facts.css">
 </head>
+
 <body>
 
-<!-- Global Test Section -->
-<!-- 
+    <!-- Global Test Section -->
+    <!-- 
     <button class="primary-btn">Get Early Access</button>
     <button class="secondary-btn">Get Early Access</button>
 
     <p>Hi im para</p>
   -->
-<!-- Global Test Area end -->
+    <!-- Global Test Area end -->
 
-<!-- Here's the Header Section -->
+    <!-- Here's the Header Section -->
 
-<header class="w-100 header-wrapper primary-bg-color">
+    <header class="w-100 header-wrapper primary-bg-color">
 
-    <!-- boxed wrapper with 1360px -->
+        <!-- boxed wrapper with 1360px -->
 
-    <nav class="d-flex justify-between navbar margin-center align-center">
-        <img src="./assets/logo-navbar.png" alt="" class="nav-logo">
-        <ul class="nav-links d-flex">
-            <li><a href="#" class="nav-link link">Features</a></li>
-            <li><a href="#" class="nav-link link">How it Works</a></li>
-            <li><a href="#" class="nav-link link">Why It's Different</a></li>
-        </ul>
-        <button class="primary-btn">Get Early Access</button>
-    </nav>
-</header>
+        <nav class="d-flex justify-between navbar margin-center align-center">
+            <img src="./assets/logo-navbar.png" alt="" class="nav-logo">
+            <ul class="nav-links d-flex">
+                <li><a href="#" class="nav-link link">Features</a></li>
+                <li><a href="#" class="nav-link link">How it Works</a></li>
+                <li><a href="#" class="nav-link link">Why It's Different</a></li>
+            </ul>
+            <button class="primary-btn">Get Early Access</button>
+        </nav>
+    </header>
 
-<!-- Main content starts from here -->
+    <!-- Main content starts from here -->
 
-<main>
-    <section class="hero-section">
-        <main class="section-wrapper d-flex flex-col align-center margin-center hero-wrapper gap-16">
-            <div class="hero-label-wrapper d-flex align-center">
-                <img src="./assets/Active.png" alt="">
-                <p class="section-label">Early Access Now Open</p>
-            </div>
-            <div class="d-flex flex-col align-center">
-                <h1 class="white-color">Structured Thinking,</h1>
-                <h1 class="secondary-color">Not Just Note-Taking.</h1>
-            </div>
-            <p class="white-color text-center">A private space to store notes, links, and learning summaries — designed to
-            help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
-            <div class="hero-btn-wrapper d-flex gap-16">
-                <button class="primary-btn d-flex flex-row align-center">
-                    Get Early Access
-                <img src="./assets/ArrowRight.png" alt="" class="cta-btn">
-                </button>
-                <button class="secondary-btn d-flex flex-row align-center">    
-                    <img src="./assets/Play.png" alt="" class="play-btn">
-                    See How It Works
-                </button>
-            </div>
-        </main>
-    </section>
-</main>
+    <main>
+
+        <!-- Hero section here -->
+
+        <section class="hero-section">
+            <main class="section-wrapper d-flex flex-col align-center margin-center hero-wrapper gap-16">
+                <div class="hero-label-wrapper d-flex align-center">
+                    <img src="./assets/Active.png" alt="">
+                    <p class="section-label">Early Access Now Open</p>
+                </div>
+                <div class="d-flex flex-col align-center">
+                    <h1 class="white-color">Structured Thinking,</h1>
+                    <h1 class="secondary-color">Not Just Note-Taking.</h1>
+                </div>
+                <p class="white-color text-center hero-para">A private space to store notes, links, and learning
+                    summaries — designed to
+                    help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
+                <div class="hero-btn-wrapper d-flex gap-16">
+                    <button class="primary-btn d-flex flex-row align-center">
+                        Get Early Access
+                        <img src="./assets/ArrowRight.png" alt="" class="cta-btn">
+                    </button>
+                    <button class="secondary-btn d-flex flex-row align-center">
+                        <img src="./assets/Play.png" alt="" class="play-btn">
+                        See How It Works
+                    </button>
+                </div>
+            </main>
+        </section>
+
+        <!-- Here starts the fact section -->
+
+        <section class="fact-section w-100">
+
+            <main class="fact-section-wrapper margin-center d-flex flex-col">
+
+                <div class="text-box d-flex text-center flex-col">
+                    <h2>Notes don't fail, Structure does.</h2>
+                    <p>You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
+                </div>
+                <div class="card-wrapper d-flex gap-24">
+                    <div class="fact-card d-flex flex-col gap-16 text-center align-center">
+                        <div class="icon-wrapper icon-bg-color">
+                            <img src="./assets/Vector.png" alt="">
+                        </div>
+                        <h3>Scattered Nontes</h3>
+                        <p>Your ideas live in 10 different apps, none of them connected.</p>
+                    </div>
+                    <div class="fact-card d-flex flex-col gap-16 text-center align-center">
+                        <div class="icon-wrapper icon-bg-color">
+                            <img src="./assets/Bookmarks.png" alt="">
+                        </div>
+                        <h3>Bookmark overload</h3>
+                        <p>Hundreds of saved links you'll never revisit or remember.</p>
+                    </div>
+                    <div class="fact-card d-flex flex-col gap-16 text-center align-center">
+                        <div class="icon-wrapper icon-bg-color">
+                            <img src="./assets/Brain.png" alt="">
+                        </div>
+                        <h3>No idea connections</h3>
+                        <p>Insights stay isolated, never building into bigger understanding.</p>
+                    </div>
+                    <div class="fact-card d-flex flex-col gap-16 text-center align-center">
+                        <div class="icon-wrapper icon-bg-color">
+                            <img src="./assets/Info.png" alt="">
+                        </div>
+                        <h3>Forgetting what you learned</h3>
+                        <p>Knowledge fades because there's no system to retain it.</p>
+                    </div>
+                </div>
+            </main>
+
+        </section>
+
+        <!-- solution section starts here -->
+
+        <section class="w-100 solution-section">
+            <main class="solution-section-wrapper d-flex">
+                <div class="solution-img-wrapper">
+                    <img src="./assets/knowledge.png" alt="">
+                </div>
+                <div class="solution-text-box">
+                    <div class="row-1">
+                        <p class="section-label">THE SOLUTION</p>
+                        <div>
+                            <h2>Your Second Brain,</h2>
+                            <h2>Structured By Design</h2>
+                        </div>
+                        <p class="para">Personal Knowledge Vault isn't another note-taking app. z It's a thinking environment where every note, link, and summary becomes part of an interconnected web of understanding.</p>
+                    </div>
+                    <ul class="row-2">
+                        <li>
+                            <img src="./assets/CheckCircle.png" alt="">
+                            <p class="para primary-color">Capture ideas with structure built-in from day one</p>
+                        </li>
+                        <li>
+                            <img src="./assets/CheckCircle.png" alt="">
+                            <p class="para primary-color">Connect related concepts automatically as you write</p>
+                        </li>
+                        <li>
+                            <img src="./assets/CheckCircle.png" alt="">
+                            <p class="para primary-color">Build lasting knowledge through reflection prompts</p>
+                        </li>
+                        <li>
+                            <img src="./assets/CheckCircle.png" alt="">
+                            <p class="para primary-color">Find anything instantly with semantic search</p>
+                        </li>
+                    </ul>
+                </div>
+            </main>
+        </section>
+
+    </main>
 
 
 
 </body>
+
 </html>

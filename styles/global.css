@@ -45,10 +45,12 @@ h1 {
 
 h2 {
     font-size: 48px;
+    color: var(--heading-color);
 }
 
 h3 {
     font-size: 24px;
+    color: var(--heading-color);
 }
 
 p {
@@ -83,6 +85,10 @@ p {
     color: var(--para-color);
 }
 
+.dark-color {
+    color: var(--primary-dark);
+}
+
 .heading-color {
     color: var(--heading-color);
 }
@@ -95,7 +101,7 @@ p {
     background-color: var(--secondary-bg-color);
 }
 
-.icon-color {
+.icon-bg-color {
     background-color: var(--icon-color);
 }
 

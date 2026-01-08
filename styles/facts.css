@@ -1,0 +1,24 @@
+.fact-section {
+    margin-top: 70px;
+}
+
+.fact-section-wrapper {
+    width: 1360px;
+    gap: 44px;
+}
+
+.fact-card {
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0px -02px 18px -10px rgba(48, 48, 48, 0.464);
+    transition: 300ms;
+}
+
+.fact-card:hover {
+    transform: scale(1.1);
+}
+
+.icon-wrapper {
+    padding: 13px 15px;
+    border-radius: 50%;
+}

@@ -24,3 +24,8 @@
 .hero-btn-wrapper {
     margin-top: 32px;
 }
+
+.hero-wrapper .hero-para {
+    padding-inline: 80px;
+    font-weight: 400;
+}
